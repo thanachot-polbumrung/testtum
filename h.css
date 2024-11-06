@@ -1,0 +1,229 @@
+
+        .header h1 {
+            background-color: green;
+            float: left;
+            display: block;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .header h3 {
+            background-color: green;
+            float: right;
+            display: block;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .header h5 {
+            background-color: rgb(255, 255, 255);
+            float: inline-start;
+            display: block;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .column h1 {
+            text-align: center;
+        }
+
+        .column h3 {
+            text-align: center;
+            color: rgb(53, 151, 151);
+        }
+
+        .row {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .row2 {
+            display: flex;
+            flex-direction: row;
+            align-items: start;
+        }
+
+        .add {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+
+        }
+
+        .add1 {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            border: 10px;
+
+
+        }
+
+        .tel {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+
+        }
+
+        .tel1 {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+
+        }
+
+        .Email {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+
+        }
+
+        .Email1 {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+        }
+
+        /* .columnA,
+        .columnB,
+        .columnC,
+        .columnD {
+            float: left;
+            width: 31%;
+            padding: 15px;
+            text-align: justify;
+        } */
+
+        h2 {
+            color: green;
+            text-align: center;
+        }
+
+
+
+
+
+
+        .columnA {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            float: inline-start;
+            width: 50%;
+        }
+
+        .columnA h3 {
+            color: rgb(71, 165, 90);
+        }
+
+        .columnA p {
+            color: gray;
+        }
+
+
+        .columnC {
+            float: inline-start;
+            width: 50%;
+        }
+
+        .columnC h2 {
+            color: black;
+            float: left;
+
+
+        }
+
+        .columnC p {
+            color: rgb(71, 165, 90);
+        }
+
+        .columnD p {
+            color: rgb(71, 165, 90);
+        }
+
+
+
+
+
+
+
+
+
+        .row3 {
+            display: flex;
+            flex-direction: row;
+            align-items: start;
+
+            background-color: green;
+            padding: 15px;
+            
+        }
+
+        .footer1{
+            width: 25%;
+        }
+        .footer2{
+            width: 25%;
+        }
+        .footer3{
+            width: 25%;
+        }
+        .footer4{
+            width: 25%;
+        }
+
+        .footer1 h1{
+            color: aliceblue;
+            display: flex;
+            flex-direction: column;
+
+        }
+        .footer1 p{
+            color: aliceblue;
+        }
+
+
+        .footer2 h1{
+            color: aliceblue;
+            display: flex;
+            flex-direction: column;
+
+        }
+        .footer2 p{
+            color: aliceblue;
+        }
+
+        .footer3 h1{
+            color: aliceblue;
+        }
+
+        .galoo {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .footer4 h1{
+            color: aliceblue;
+            display: flex;
+            flex-direction: column;
+        }
+        .footer4 p{
+            color: aliceblue;
+            display: flex;
+            flex-direction: column;
+        }
+
+
+  
