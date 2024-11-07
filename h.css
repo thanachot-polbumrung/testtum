@@ -4,12 +4,17 @@
         flex-direction: row;
        }
 
+       .head1{
+        width: 20%;
+       }
+
        .about {
         display: flex;
         flex-direction: row;
-        margin: 5px;
-        float: right;
-        margin-left: 30%;
+        
+        
+        margin-left: 10%;
+        width: 60%;
         
 
 
@@ -21,12 +26,28 @@
         
         
        }
+       .lean {
+        display: flex;
+        align-items: center;
+  
+        background-color: green;
+        
+        width: 20%;
+        
+        
+       }
 
        .lean p{
+        
+        
+        text-align: center;
         color: white;
-        background-color: green;
-        padding: 16px 18px;
+        margin-left: 35%;
+       
+        
+        
         float:right;
+        
         
        }
 
@@ -40,6 +61,24 @@
         align-items: center;
         margin-bottom: 5%;
     }
+
+    .yellowT {
+        margin: 2px; 
+        color: white; 
+        background-color: yellow ;
+        padding: 1px;
+
+    }
+
+    .greenT{
+        margin: 2px;
+        color: white;
+        background-color: green ;
+        padding: 2px 2px;
+        margin-right: 20px;
+    }
+
+
     .columnA {
         margin-left: 5%;
         width: 50%;
