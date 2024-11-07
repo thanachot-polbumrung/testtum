@@ -1,5 +1,147 @@
 
-        .header h1 {
+       .header {
+        display: flex;
+        flex-direction: row;
+       }
+
+       .about {
+        display: flex;
+        flex-direction: row;
+        margin: 5px;
+        float: right;
+        margin-left: 30%;
+        
+
+
+       }
+
+       .about p{
+        float: right;
+        margin: 10px;
+        
+        
+       }
+
+       .lean p{
+        color: white;
+        background-color: green;
+        padding: 16px 18px;
+        float:right;
+        
+       }
+
+       .contact h2{
+        color: rgb(88, 158, 88);
+       }
+
+       .row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 5%;
+    }
+    .columnA {
+        margin-left: 5%;
+        width: 50%;
+    }
+
+    .columnB {
+        width: 50%;
+    }
+    .add {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+
+
+    }
+    .tel {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 10%;
+
+
+    }
+
+    .Email {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+
+    }
+
+    .row2{
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        margin-bottom: 5%;
+    }
+
+    .columnC{
+        
+        width: 50%;
+        margin-left: 5%;
+    }
+    .columnC p{
+        color: rgb(0, 84, 0);
+    }
+
+    .columnD p{
+        color: rgb(0, 84, 0);
+    }
+
+    .row3{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .line1 {
+        width: 33%;
+    }
+    .line2 {
+        width: 33%;
+    }
+    .line3 {
+        width: 33%;
+    }
+
+    .row4 {
+        display: flex;
+        flex-direction: row;
+        background-color:green ;
+    }
+    .footer1{
+        width: 25%;
+    }
+    .footer2{
+        width: 25%;
+    }
+    .footer3{
+        width: 25%;
+    }
+    footer4{
+        width: 25%;
+    }
+    .footerrow1{
+        margin-left: 5%;
+        color: white;
+    }
+    .footerrow2{
+        
+        color: white;
+    }
+    .footerrow3{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+       
+       
+       /* .header h1 {
             background-color: green;
             float: left;
             display: block;
@@ -94,7 +236,7 @@
             display: flex;
             flex-direction: column;
             align-items: start;
-        }
+        } */
 
         /* .columnA,
         .columnB,
@@ -106,7 +248,7 @@
             text-align: justify;
         } */
 
-        h2 {
+        /* h2 {
             color: green;
             text-align: center;
         }
@@ -223,7 +365,7 @@
             color: aliceblue;
             display: flex;
             flex-direction: column;
-        }
+        } */
 
 
   
