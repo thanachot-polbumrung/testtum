@@ -1,5 +1,122 @@
 
 
+.button {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .button2{
+    background-color: yellowgreen;
+  }
+  
+
+
+
+
+
+    .dropdown{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    .dropdown-content{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+        padding: 12px 16px;
+       
+
+    }
+    
+    .dropdown:hover .dropdown-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dropdown2{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    .dropdown-content2{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+        padding: 12px 16px;
+      
+
+    }
+    
+    .dropdown2:hover .dropdown-content2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dropdown3{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    .dropdown-content3{
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+        padding: 12px 16px;
+       
+
+    }
+    
+    .dropdown3:hover .dropdown-content3{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .about a:hover{
+        color: rgb(11, 95, 68);
+    }
+
+    .columnC a:hover{
+        color: greenyellow;
+
+    }
+    .columnD a:hover{
+        color: greenyellow;
+
+    }
+    .line1 a:hover{
+        color: greenyellow;
+    }
+    .line2 a:hover{
+        color: greenyellow;
+    }
+    .line3 a:hover{
+        color: greenyellow;
+    }
+    .footerrow1 a:hover{
+        font-size: larger;
+    }
+    .footerrow2 a:hover{
+        font-size: larger;
+    }
+    
+
        .header {
         display: flex;
         flex-direction: row;
@@ -25,9 +142,10 @@
 
        }
 
-       .about p{
+       .about a{
         float: right;
         margin: 10px;
+        color: black;
         
         
        }
@@ -67,7 +185,7 @@
         margin-bottom: 5%;
     }
 
-    .yellowT {
+    /* .yellowT {
         margin: 2px; 
         color: white; 
         background-color: yellow ;
@@ -81,7 +199,7 @@
         background-color: green ;
         padding: 2px 2px;
         margin-right: 20px;
-    }
+    } */
 
 
     .columnA {
@@ -125,16 +243,26 @@
     }
 
     .columnC{
-        
+        display: flex;
+        flex-direction: column;
         width: 50%;
         margin-left: 5%;
     }
-    .columnC p{
+    .columnD{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin-left: 5%;
+        
+    }
+    .columnC a{
         color: rgb(0, 84, 0);
+        margin-bottom: 3px;
     }
 
-    .columnD p{
+    .columnD a{
         color: rgb(0, 84, 0);
+        margin-bottom: 3px;
     }
 
     .row3{
@@ -143,14 +271,41 @@
         align-items: center;
     }
 
+    .line1 a :hover{
+        color:rgb(11, 95, 68) ;
+    }
+
     .line1 {
         width: 33%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5px;
+    }
+    .line1 a{
+        margin-bottom: 5px;
+        color:rgb(0, 84, 0) ;
     }
     .line2 {
         width: 33%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5px;
+    }
+    .line2 a{
+        margin-bottom: 5px;
+        color:rgb(0, 84, 0) ;
+
     }
     .line3 {
         width: 33%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5px;
+    }
+    .line3 a{
+        margin-bottom: 5px;
+        color:rgb(0, 84, 0) ;
+
     }
 
     .row4 {
@@ -167,21 +322,34 @@
     .footer3{
         width: 25%;
     }
-    footer4{
-        width: 25%;
-    }
-    .footerrow1{
-        margin-left: 5%;
-        color: white;
-    }
-    .footerrow2{
+    /* .footer4{
         
-        color: white;
+        width: 25%;
+    } */
+    .but{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     }
-    .footerrow3{
+    .footerrow1 a{
         display: flex;
         flex-direction: column;
-        align-items: start;
+        margin-left: 5%;
+        margin-bottom: 3px;
+        color: white;
+    }
+    .footerrow2 a{
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%;
+        margin-bottom: 3px;
+        color: white;
+    }
+    .footerrow3 a{
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%;
+        color: white;
     }
 
 
@@ -189,10 +357,10 @@
     @media only screen and (max-width: 700px) {
         /* .header {width: 40%;} */
         .head1 {width: 30%}
-        .about p{font-size: x-small;}
+        .about a{font-size: x-small;}
         .about {width: 40%;float: inline-start;margin: 5px;}
-        .yellowT {width: 40%;float: inline-start;}
-        .greenT {width: 40%;float: inline-start;}
+        .button2 {width: 30%;float: inline-start;font-size: small;}
+        .button3 {width: 30%;float: inline-start;}
         .lean {margin-left:60px ;}
         .lean p{width: 10%;text-align: right;margin-left: 35%;font-size: small;}
         
@@ -208,6 +376,27 @@
 
 
         
+    }
+    @media screen and (max-width: 400px) {
+        .about a:not(:first-child) {display: none;}
+        .about a.icon {
+          float: right;
+          display: block;
+        }
+      }
+    @media only screen and (max-width: 400px){
+        .about.responsive {position: relative;}
+        .about.responsive .icon {
+          position: absolute;
+          right: 0;
+          top: 0;
+        }
+        .about.responsive a {
+          float: none;
+          display: block;
+          text-align: left;
+        }
+
     }
        
        
